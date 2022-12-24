@@ -1,5 +1,5 @@
 Strict encoding is a formal notation and implementation of a 
-serialization for generalized algebraic data types (GADT).
+serialization for [generalized algebraic data types (GADT)](gadt).
 
 In simple terms, strict encoding is a _**protocol buffers for functional programming**_ (or, for rust devs, _**functional-style serde**_).
 
@@ -17,7 +17,7 @@ serialization. It is:
 
 Strict encoding is WIP. Currently it is used by a number of projects
 including [RGB smart contracts](https://github.com/RGB-WG),
-[Farcaster](https://github.com/farcaster-project)
+[Farcaster](https://github.com/farcaster-project),
 [CypherNet](https://github.com/CypherNet-WG) and others.
 
 In this organization we plan to provide:<br>
@@ -32,3 +32,5 @@ Utilities**<br>
 Swift | 
 Kotlin | 
 TypeScript**
+
+[gadt]: https://en.wikipedia.org/wiki/Algebraic_data_type
