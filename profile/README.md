@@ -1,10 +1,11 @@
-Strict encoding is a formal notation and implementation of a 
-serialization for [generalized algebraic data types (GADT)](gadt).
+Strict encoding is a formal notation for defining and serializing 
+[generalized algebraic data types (GADT)](gadt) in a deterministic
+and confined way. It is developed with [type theory] in mind.
 
-In simple terms, strict encoding is _**protocol buffers for functional programming**_ (or, for rust devs, _**functional-style serde**_).
+In simple terms, strict encoding is _**protocol buffers for functional 
+programming**_ (or, for rust devs, _**functional-style serde**_).
 
-Strict encoding is both a language for defining GADT and libraries for their
-serialization. It is:
+Strict encoding is:
 * __schema-based__ (with the schema being strict encoding notation),
 * __semantic__, i.e. defines types not just as they are layed out in memory, 
   but also depending on their meaning,
@@ -22,7 +23,11 @@ including [RGB smart contracts](https://github.com/RGB-WG),
 [Farcaster](https://github.com/farcaster-project),
 [CypherNet](https://github.com/CypherNet-WG) and others.
 
-In this organization we plan to provide:<br>
+Alongside strict encoding this organization hosts related projects:
+- **Strict RPC**, which is a gRPC analog based on strict encoding;
+- **Strict REST**, which is an HTML REST JSON analog, based on Strict RPC
+  (instead of HTML) and Strict Encoding (instead of JSON).
+
 **[Whitepaper](https://github.com/strict-encoding/spec) | 
 Yellowpaper | 
 [Compiler](https://github.com/strict-encoding/stenc) | 
@@ -36,3 +41,4 @@ Kotlin |
 TypeScript**
 
 [gadt]: https://en.wikipedia.org/wiki/Algebraic_data_type
+[type theory]: https://en.wikipedia.org/wiki/Type_theory
