@@ -2,7 +2,7 @@ Strict types is a formal notation for defining and serializing
 [generalized algebraic data types (GADT)](gadt) in a deterministic
 and confined way. It is developed with [type theory] in mind.
 
-In simple terms, strict types are _**protocol buffers andg gRPC for functional 
+In simple terms, strict types are _**protocol buffers and gRPC for functional 
 programming**_ (or, for rust devs, _**functional-style serde**_).
 
 Strict Types are:
