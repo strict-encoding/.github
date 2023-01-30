@@ -17,8 +17,8 @@ Strict Types are:
 * __formally verifiabile__.
 
 Strict Types include:
-- **Strict Encoding** - set of libraries for serializing / deserializing data 
-  types in binary formats (a protobuf analog);
+- [**Strict Encoding**][strict-encoding] - set of libraries for serializing /
+  deserializing data types in binary formats (a protobuf analog);
 - **Strict RPC**, which is a gRPC analog based on strict encoding;
 - **Strict REST**, which is an HTML REST JSON analog, based on Strict RPC
   (instead of HTML) and Strict Encoding (instead of JSON).
@@ -26,9 +26,10 @@ Strict Types include:
 ![strict-encoding-box](https://user-images.githubusercontent.com/372034/209443924-add45986-d90c-42f9-bfaa-2fd2b0d50506.png)
 
 Strict Types is WIP. Currently it is used by a number of projects
-including [RGB smart contracts](https://github.com/RGB-WG),
+including [AluVM](https://github.com/AluVM),
+[RGB smart contracts](https://github.com/RGB-WG),
 [Farcaster](https://github.com/farcaster-project),
-[CypherNet](https://github.com/CypherNet-WG) and others.
+[Cyphernet](https://github.com/CypherNet-WG) and others.
 
 **[Whitepaper](https://github.com/strict-types/spec) | 
 Yellowpaper | 
@@ -39,3 +40,4 @@ Utilities**<br>
 
 [gadt]: https://en.wikipedia.org/wiki/Algebraic_data_type
 [type theory]: https://en.wikipedia.org/wiki/Type_theory
+[strict-encoding]: https://github.com/strict-types/strict-encoding
